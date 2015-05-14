@@ -121,7 +121,7 @@ describe "manipulating arrays" do
 
     it "deletes all items in array that are equal to the item passed as an argument" do
       #LEARN MUST FIX: Where does the argument come from?!
-      answer = most_popular_boy_names_2014.last # replace the underscore with your answer
+      answer = most_popular_boy_names_2014.delete("Jack") # replace the underscore with your answer
       expect(answer).to eq("Jack")
     end
   end
