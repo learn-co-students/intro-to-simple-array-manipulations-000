@@ -1,4 +1,3 @@
-taco
 describe "manipulating arrays" do
 
   context 'push method' do
