@@ -1,3 +1,4 @@
+taco
 describe "manipulating arrays" do
 
   context 'push method' do
@@ -5,7 +6,7 @@ describe "manipulating arrays" do
     next_country = "Niger"
 
     it "adds an element to the end of an array" do
-      answer = __ # replace the underscore with your answer
+      answer = 17# replace the underscore with your answer
       expect(answer.last).to eq(next_country)
     end
   end
